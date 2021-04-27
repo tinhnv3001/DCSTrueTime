@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DCSTrueTime_Example' do
+  pod 'DCSTrueTime', :path => '../'
+
+  target 'DCSTrueTime_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
