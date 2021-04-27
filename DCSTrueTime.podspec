@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DCSTrueTime'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DCSTrueTime.'
+  s.summary          = 'DCSTrueTime is Library for getting realtime'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,13 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/nvtinh368/DCSTrueTime'
+  s.homepage         = 'https://github.com/tinhnv3001/DCSTrueTime'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nvtinh368' => 'tinhnv@diachiso.vn' }
-  s.source           = { :git => 'https://github.com/nvtinh368/DCSTrueTime.git', :tag => s.version.to_s }
+  s.author           = { 'tinhnv3001' => 'tinhnv@diachiso.vn' }
+  s.source           = { :git => 'https://github.com/tinhnv3001/DCSTrueTime.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'DCSTrueTime/Classes/**/*'

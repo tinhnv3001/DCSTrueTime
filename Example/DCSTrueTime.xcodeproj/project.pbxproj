@@ -28,12 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0432B10545AEC325194C6A17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0432B10545AEC325194C6A17 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1DB6B4F94A21646342E4CCFD /* Pods-DCSTrueTime_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCSTrueTime_Example.release.xcconfig"; path = "Target Support Files/Pods-DCSTrueTime_Example/Pods-DCSTrueTime_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2E5620F5E5F36E7D28945A1F /* Pods_DCSTrueTime_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCSTrueTime_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ABF3816AE8620B469A89C5D /* Pods-DCSTrueTime_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCSTrueTime_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DCSTrueTime_Tests/Pods-DCSTrueTime_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		43BC0200A733F472C33FE06F /* Pods-DCSTrueTime_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCSTrueTime_Tests.release.xcconfig"; path = "Target Support Files/Pods-DCSTrueTime_Tests/Pods-DCSTrueTime_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		47B414DAE3F46C187EDBFD31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47B414DAE3F46C187EDBFD31 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* DCSTrueTime_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCSTrueTime_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACE51AFB9204008FA782 /* DCSTrueTime_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCSTrueTime_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8968898942192FD4CE02F1F9 /* DCSTrueTime.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DCSTrueTime.podspec; path = ../DCSTrueTime.podspec; sourceTree = "<group>"; };
+		8968898942192FD4CE02F1F9 /* DCSTrueTime.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DCSTrueTime.podspec; path = ../DCSTrueTime.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B92EED647841F3F746A8F58C /* Pods-DCSTrueTime_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCSTrueTime_Example.debug.xcconfig"; path = "Target Support Files/Pods-DCSTrueTime_Example/Pods-DCSTrueTime_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5E524EDDAD5C10F56FDCB6 /* Pods_DCSTrueTime_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DCSTrueTime_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -156,7 +156,6 @@
 				3ABF3816AE8620B469A89C5D /* Pods-DCSTrueTime_Tests.debug.xcconfig */,
 				43BC0200A733F472C33FE06F /* Pods-DCSTrueTime_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
